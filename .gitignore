@@ -1,0 +1,6 @@
+todo.txt
+.vscode/*
+data/firstenv/*
+data/*.mypy_cache/*
+server/*
+CREDS.json

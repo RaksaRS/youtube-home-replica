@@ -1,0 +1,12 @@
+body {
+    --corner-radius: 5px;
+    --icon-width: 25px;
+    --icon-font-size: 1.1rem;
+    --navbar-height: 40px;
+    --search-bar-border-size: 1px;
+
+    /* Video-related */
+    --channel-img-size: 40px;
+    --channel-img-padding-all-sides: 10px;
+    --video-item-description-height: 60px;
+}

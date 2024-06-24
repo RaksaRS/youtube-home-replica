@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="navbar">
+        <div id="navbar-left">
+            <img src="images/logo.png" alt="youtube logo">
+        </div>
+        <div id="search-bar-and-mic">
+            <div id="search-bar">
+                <input type="text" name="search-bar" placeholder="Search"/>
+                <div id="search-bar-magnify-icon" class="centered-icon-container">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="search-bar-mic" class="centered-icon-container circular-icon-container">
+                <button>
+                    <i class="fa-solid fa-microphone"></i>
+                </button>
+            </div>
+        </div>
+        <div id="settings">
+            <button>
+                <i class="fa-brands fa-youtube"></i>
+            </button>
+            <button>
+                <i class="fa-regular fa-bell"></i>
+            </button>
+            <button>
+                <img src="images/profile_picture.png" alt="your_account_profile_picture">
+            </button>
+        </div>
+    </header>
+
+    <div id="main">
+        <aside id="sidebar"></aside>
+
+        <main id="videos-and-categories">
+            <nav id="video-categories">
+                <div id="video-categories-items">
+                    <div>
+                        <button href="#">All</button>
+                        <button href="#">Guitar Fingerstyle</button>
+                        <button href="#">Calming music</button>
+                        <button href="#">Cooking</button>
+                        <button href="#">Euro Cup</button>
+                        <button href="#">Electric Guitar</button>
+                        <button href="#">Software Engineering</button>
+                        <button href="#">Cybersecurity</button>
+                        <button href="#">Information Technology</button>
+                        <button href="#">Red Dead</button>
+                        <button href="#">Horror Stories</button>
+                        <button href="#">Animated Films</button>
+                        <button href="#">Meditation</button>
+                        <button href="#">Mobile Legends</button>
+                        <button href="#">NASCAR</button>
+                    </div>
+                </div>
+                <button id="video-categories-paginator">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+            </nav>
+            <article id="videos" >
+            </article>
+        </main>
+    </div>
+
+    <script src="scripts/index.js"></script>
+    <script src="scripts/sidebar.js"></script>
+    <script src="scripts/load_videos_from_json.js"></script>
+</body>
+</html>
